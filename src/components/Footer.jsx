@@ -32,6 +32,13 @@ const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  p, li {
+    @media (max-width:700px) {
+      font-size: 0.8em;
+      width: auto;
+    }
+  }
 `;
 const FooterSection = styled.div`
   bottom: 0;
@@ -47,5 +54,11 @@ const FooterSection = styled.div`
   border-top: 2px #243c2c solid;
 `;
 
-const Contacts = styled.div``;
-const Details = styled.div``;
+const Contacts = styled.div`
+  margin: 5px;
+  padding-left: 15px;
+  `;
+const Details = styled.div`
+  margin: 5px;
+  padding-right: 15px;
+`;

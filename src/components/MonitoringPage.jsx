@@ -73,7 +73,7 @@ const Graph = styled.div`
   p {
     width: 600px;
     @media (max-width:700px) {
-      width: 400px;
+      width: 350px;
     }
   }
   

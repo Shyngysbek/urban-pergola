@@ -18,8 +18,8 @@ var height;
 
 // console.log(current_width)
 if (current_width < 700) {
-  width = 400 - margin.left - margin.right;
-  height = 200 - margin.top - margin.bottom;
+  width = 350 - margin.left - margin.right;
+  height = 150 - margin.top - margin.bottom;
 }
 else {
   width = 600 - margin.left - margin.right;
