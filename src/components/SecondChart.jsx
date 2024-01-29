@@ -3,6 +3,29 @@ import React, { useEffect } from 'react';
 import * as d3 from 'd3';
 import './Tooltip.css'
 
+const margin = { top: 20, right: 30, bottom: 30, left: 40 };
+var default_width = 600 - margin.left - margin.right;
+var default_height = 400 - margin.top - margin.bottom;
+var default_ratio = default_width / default_height;
+
+var current_width = window.innerWidth;
+var current_height = window.innerHeight;
+var current_ratio = current_width / current_height;
+
+
+var width;
+var height;
+
+// console.log(current_width)
+if (current_width < 700) {
+  width = 400 - margin.left - margin.right;
+  height = 200 - margin.top - margin.bottom;
+}
+else {
+  width = 600 - margin.left - margin.right;
+  height = 400 - margin.top - margin.bottom;
+}
+
 const SecondChart = () => {
   useEffect(() => {
     const data = [
@@ -25,8 +48,8 @@ const SecondChart = () => {
     ];
 
     const margin = { top: 20, right: 30, bottom: 30, left: 40 };
-    const width = 600 - margin.left - margin.right;
-    const height = 400 - margin.top - margin.bottom;
+    // const width = 600 - margin.left - margin.right;
+    // const height = 400 - margin.top - margin.bottom;
 
     // Clear existing content of #chartContainer
     d3.select('#chartContainer2').html('');

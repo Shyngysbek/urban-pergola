@@ -72,7 +72,11 @@ const Graph = styled.div`
 
   p {
     width: 600px;
+    @media (max-width:700px) {
+      width: 400px;
+    }
   }
+  
   span {
     display: flex;
     align-items: center;
