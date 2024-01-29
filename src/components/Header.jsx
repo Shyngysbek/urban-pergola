@@ -4,15 +4,13 @@ import { MdOutlineMonitorHeart } from "react-icons/md";
 import { RiAdminLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import logo from '/images/up_logo.svg'
+import './Header.css'
 
 const Header = () => {
   return (
     <Nav>
-      <Link to='/urban-pergola/'>
-        <Logo>
-          {/* <img src='./images/up_logo.svg' /> */}
-          <img src={logo} alt='logo'/>
-        </Logo>
+      <Link className='logo-a' to='/urban-pergola/'>
+        <img src={logo} alt='logo' />
       </Link>
       <NavMenu>
         <Link to='/urban-pergola/'>
