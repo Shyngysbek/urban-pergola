@@ -4,7 +4,7 @@ const CardDeck = () => {
   return (
     <CardDisplay>
           <Card>
-            <img src="./images/Lina.jpeg" alt="Lina" />
+            <img src="./images/Lina.jpeg" alt="image" />
             <Container>
               <h2>Lina Becker</h2>
               <p className="title">Founder</p>
@@ -14,7 +14,7 @@ const CardDeck = () => {
             </Container>
           </Card>
           <Card>
-            <img src="./images/Marcel.jpeg" alt="Lina" />
+            <img src="./images/Marcel.jpeg" alt="image" />
             <Container>
               <h2>Marcel Conrad</h2>
               <p className="title">Founder</p>
@@ -24,7 +24,7 @@ const CardDeck = () => {
             </Container>
           </Card>
           <Card>
-            <img src="./images/Julian.jpeg" alt="Lina" />
+            <img src="./images/Julian.jpeg" alt="image" />
             <Container>
               <h2>Julian Schöne</h2>
               <p className="title">Founder</p>
@@ -34,7 +34,7 @@ const CardDeck = () => {
             </Container>
           </Card>
           <Card>
-            <img src="./images/Sylvan.jpeg" alt="Lina" />
+            <img src="./images/Sylvan.jpeg" alt="image" />
             <Container>
               <h2>Sylvan Rentel</h2>
               <p className="title">Founder</p>

@@ -7,17 +7,17 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Nav>
-      <Link to='/urban-pergola-app/'>
+      <Link to='/urban-pergola/'>
         <Logo>
           <img src='images/up_logo.svg' />
         </Logo>
       </Link>
       <NavMenu>
-        <Link to='/urban-pergola-app/'>
+        <Link to='/urban-pergola/'>
           <FaHome className='icon' />
           <span>HOME</span>
         </Link>
-        <Link to='/urban-pergola-app/monitoring/'>
+        <Link to='/urban-pergola/monitoring/'>
           <MdOutlineMonitorHeart className='icon' />
           <span>MONITORING</span>
         </Link>
