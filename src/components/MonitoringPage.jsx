@@ -17,15 +17,15 @@ function MonitoringPage() {
         <VisualizationSection>
           <Graph>
             <FirstChart />
-            <p><span className='red'>[<div id='blink-red' /> - negative]</span><b>Total Dissolved Solids (TDS)</b> - cumulative measurement of inorganic salts, minerals, and other dissolved substances present in the water and nutrient solution used in hydroponics.</p>
+            <span className='red'>[<div id='blink-red' /> - negative]</span><p><b>Total Dissolved Solids (TDS)</b> - cumulative measurement of inorganic salts, minerals, and other dissolved substances present in the water and nutrient solution used in hydroponics.</p>
           </Graph>
           <Graph>
             <SecondChart />
-            <p><span className='red'>[<div id='blink-red' /> - negative]</span><b>Potential of Hydrogen (pH)</b> - quantitative measure of the acidity or basicity of aqueous or other liquid solutions.</p>
+            <span className='red'>[<div id='blink-red' /> - negative]</span><p><b>Potential of Hydrogen (pH)</b> - quantitative measure of the acidity or basicity of aqueous or other liquid solutions.</p>
           </Graph>
           <Graph>
             <ThirdChart />
-            <p><span className='red'>[<div id='blink-red' /> - negative]</span><b>Temperature (T)</b> - physical quantity that quantitatively expresses the attribute of hotness or coldness.</p>
+            <span className='red'>[<div id='blink-red' /> - negative]</span><p><b>Temperature (T)</b> - physical quantity that quantitatively expresses the attribute of hotness or coldness.</p>
           </Graph>
           <Graph>
             <p></p>
@@ -45,7 +45,7 @@ const ResponsiveContainer = styled.div`
 
   h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 `;
 
@@ -62,13 +62,13 @@ const VisualizationSection = styled.div`
 
 const Graph = styled.div`
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   height: auto;
   width: auto;
   margin: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 
   p {
     width: 600px;
