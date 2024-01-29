@@ -1,3 +1,4 @@
+
 .tooltip 
 {	
     position: absolute;
@@ -13,8 +14,4 @@
 
 .bar:hover {
   fill: #38812F;
-}
-
-p {
-  margin-left: 50px;
 }
