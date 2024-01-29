@@ -1,0 +1,31 @@
+#blink-red {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 100px;
+  animation-name: blink;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+#blink-green {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 100px;
+  animation-name: blink;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@keyframes blink {
+  50% {opacity: 0;}
+}
